@@ -21,7 +21,7 @@ handler = WebhookHandler(LINE_CHANNEL_SECRET)
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 credentials = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
 gs = gspread.authorize(credentials)
-worksheet = gs.open_by_key("あなたのスプレッドシートID").sheet1
+worksheet = gs.open_by_key("1RJjQxpNbKTIn7AFJkp0Iyo9msAPJphdib7R-HWCXKdk").sheet1
 
 def parse_report(text):
     lines = text.strip().split("\n")
