@@ -57,3 +57,6 @@ def handle_message(event):
         reply = "📋 日報を送るには「#日報」から始めてください。"
 
     line_bot_api.reply_message(event.reply_token, TextSendMessage(text=reply))
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=10000)
