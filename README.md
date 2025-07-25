@@ -129,6 +129,10 @@ LINEを使っていてGoogleスプレッドシートでの記録が得意な方�
 
 ---
 
+✉  Mall:   [Adress](tkagawa218@gmail.com)  
+            
+---
+
 ## 🔗 リンク集
 
 - 📘 [LINE Messaging API 公式ドキュメント](https://developers.line.biz/ja/)
